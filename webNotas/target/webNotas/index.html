@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Intranet Alumno</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="vendor/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-3.3.7/css/landing-page.css" rel="stylesheet">
+    <link href="vendor/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="vendor/vue-2.3/vue.min.js"></script>
+    <script type="text/javascript" src="vendor/axios-0.16.2/axios.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="app/css/main.css">
+</head>
+<body background="app/img/britanico-centro-parallax.jpg" style="background-repeat: no-repeat;background-size: 100%;">
+    <div id="login" class="hidden" >
+        <div class="container">
+            <div class="row">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="text-center">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <div class="cuadroLogin ">
+                        <div class=" container-fluid">
+                            <div class="row ">
+                                <div class="text-center" >
+                                    <img src="app/img/logo_britanico.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row text-center" style="background-color: red">
+                                <p style="size: 20px;color: white">Ingresar como Alumno</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-8 col-xs-offset-2">
+                                    <div class="row form-group">
+                                        <form>
+                                            <label for="txtCodigo"></label>
+                                            <input type="text" id="txtCodigo" maxlength="8" class="form-control" placeholder="Ingresea tu codigo">
+                                        </form>
+                                        <form action="">
+                                            <label for="passContraseña"></label>
+                                            <input type="password" id="passContraseña" maxlength="20" class="form-control" placeholder="Ingresa tu contraseaña">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <button class="btn btn-primary">Iniciar Sesion</button>
+                            </div>
+                            <div class="row text-center">
+                                <br>
+                                <a href="#">¿Necesitas ayuda?</a><br>
+                                <br>
+                                <a href="#">Ingresar como invitado</a>
+                            </div>
+                            <div class="row">
+                                <br>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div >
+        <div class="container">
+            <div class="row" style="background-color: blue">
+                <h2 style="color: white">Mis Notas</h2>
+            </div>
+            <div class="row">
+                <br>
+                <br>
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div style="background-color: white">
+                    <table class="table" >
+                        <thead>
+                            <tr><h4>Historia de Notas</h4></tr>
+                            <tr>Aqui podras encontrar el historico de tus notas</tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <table class="table table-striped">
+                                    <tbody>
+                                    <tr>
+                                        <td>Año</td>
+                                        <td>Mes</td>
+                                        <td>Centro</td>
+                                        <td>Curso</td>
+                                        <td>Nota</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
