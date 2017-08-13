@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="@localhost" uuid="f1a5f25b-1744-4661-a720-c4d41713af1f">
+    <data-source name="@localhost" uuid="dd403a92-8f3c-4eca-8566-c7fea095567e">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <user-name>hackaton</user-name>
+      <introspection-schemas>*:HACKATON</introspection-schemas>
+    </data-source>
+    <data-source name="@localhost [2]" uuid="b7dd7d1d-dfa1-4602-ba60-29a5438d36e8">
       <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
         <extra-name-characters>$#</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>sys as sysdba</user-name>
-      <introspection-schemas>*:SYS</introspection-schemas>
+      <user-name>hackaton</user-name>
+      <introspection-schemas>*:HACKATON</introspection-schemas>
+    </data-source>
+    <data-source name="@localhost [4]" uuid="281edd28-be4a-4a44-b5ca-62a911049785">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <user-name>FIIS</user-name>
+      <introspection-schemas>*:FIIS</introspection-schemas>
+    </data-source>
+    <data-source name="@localhost [3]" uuid="69361b95-07bc-4335-92f6-4501199511c6">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>hackaton</user-name>
+      <introspection-schemas>*:HACKATON</introspection-schemas>
     </data-source>
   </component>
 </project>
