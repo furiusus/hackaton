@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="vendor2/materialize-0.98.1/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+</head>
+<body ng-app="aplicacion" background="app/imagenes/FD1.jpg">
+    <div id="paginaPrincipal" ng-controller="MyControler">
+        <div class="container">
+            <div class="row">
+                <nav>
+                <div class="nav-wrapper grey darken-3" style="color: #424242">
+                    <ul id="dropdown1" class="dropdown-content" >
+                        <li><a href="" style="font-size: 14px;">Preguntas Frecuentes</a></li>
+                        <li><a href="" style="font-size: 14px;">Consultas en linea</a></li>
+                        <li><a href="" style="font-size: 14px;">Telefonos de ayuda</a></li>
+                    </ul>
+                    <a href="#" class="brand-logo" style="color: #ad1457">BIENVENIDO</a>
+                    <ul class="right ">
+                        <li><a href="">Datos Personles</a></li>
+                        <li><a href=""><i class="material-icons right">phone</i>Telefonos</a></li>
+                        <li><a href="" class="dropdown-button" data-activates="dropdown1">Servicios
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </div>
+        <div id="slideMenu" class="container">
+            <a href="#" data-activates="slide-out" class=" button-collapse" style="font-size: 20px;font-family: 'Noto Sans CJK JP Bold';"><i class="material-icons ">menu</i>Menu</a>
+            <ul id="slide-out" class="side-nav" style="transform: translateX(-100%);">
+                <li >
+                    <div class="userView">
+                        <div class="background">
+                            <img src="app/imagenes/fondoSlide.jpg" alt="">
+                        </div>
+                        <a href="#!user"><img src="app/imagenes/perfil.jpg" class="circle" alt="" style="size: 64px 64px;"></a>
+                        <a href="#!name"><span class="white-text name">Ronny Daniel</span></a>
+                        <a href="#!email"><span class="white-text email">furiusus19972904@hotmail.es</span></a>
+                    </div>
+                </li>
+                <li><a href="">Musica</a></li>
+                <li><a href="">Archivos</a></li>
+                <li><a href="">Telefono</a></li>
+                <li class="divider"></li>
+                <li><a href="">Redes</a></li>
+            </ul>
+        </div>
+
+        <div id="contenido1" class="container">
+            <div class="row">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="vendor2/jquery-3.2.0/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="vendor2/angular-1.6/angular.min.js"></script>
+<script type="text/javascript" src="vendor2/materialize-0.98.1/js/materialize.min.js"></script>
+<script type="text/javascript" src="app/js/aplicacion.js"></script>
+<script type="text/javascript" src="app/js/controller/controlador.js"></script>
+</body>
+</html>
