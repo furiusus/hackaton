@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="verificacionMinsa:war exploded">
+    <output-path>$PROJECT_DIR$/target/verificacionMinsa</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="verificacionMinsa" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/verificacionMinsa/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="verificacionMinsa/web/Web" />
+    </root>
+  </artifact>
+</component>

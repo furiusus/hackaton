@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="buscarCentro:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="buscarCentro.war">
+      <element id="artifact" artifact-name="buscarCentro:war exploded" />
+    </root>
+  </artifact>
+</component>
