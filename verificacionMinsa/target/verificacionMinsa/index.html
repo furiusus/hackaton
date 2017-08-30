@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="vendor2/materialize-0.98.1/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+<div class="container">
+    <row><br></row>
+    <row><br></row>
+    <div class="row">
+        <form action="" class="col s6 center-align offset-s3">
+            <div class="row">
+                <div class="input-field col s6 offset-s3">
+                    <input type="text" id="txtCentro" placeholder="Ingrese Centro Medico">
+                    <label for="txtCentro"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6 offset-s3">
+                    <select name="" id="selDepartamento">
+                        <option value="" disabled selected>Seleccione un Departamento</option>
+                        <option value="">Lima</option>
+                        <option value="">Callao</option>
+                        <option value="">Puno</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6 offset-s3">
+                    <select name="" id="selProvincia" >
+                        <option value="" disabled selected>Seleccione una Provincia</option>
+                        <option value="">lima</option>
+                        <option value="">chancay</option>
+                        <option value="">huacho</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btn red">Buscar</div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript" src="vendor2/jquery-3.2.0/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="vendor2/angular-1.6/angular.min.js"></script>
+<script type="text/javascript" src="vendor2/materialize-0.98.1/js/materialize.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('select').material_select();
+    });
+</script>
+<script type="text/javascript" src="app/js/aplicacion.js"></script>
+<script type="text/javascript" src="app/js/controller/controlador.js"></script>
+</body>
+</html>
