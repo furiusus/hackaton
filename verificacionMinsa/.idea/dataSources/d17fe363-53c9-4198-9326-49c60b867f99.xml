@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="RHERRERAH">
+      <ObjectId>51</ObjectId>
+      <IntrospectionTimestamp>2017-08-30.21:05:31</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-08-20.19:20:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:11</ModifiedTimestamp>
+      <CommentsHash>248939859100511</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="BASERONNY">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="HACKATON">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="18" parent="2" name="DEPARTAMENTO_SEQ">
+      <ObjectId>21429</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <SequenceIdentity>1..99</SequenceIdentity>
+    </sequence>
+    <sequence id="19" parent="2" name="EMPLEADO_SEQ">
+      <ObjectId>21434</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="20" parent="2" name="UBICACION_SEQ">
+      <ObjectId>21426</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <SequenceIdentity>1..99</SequenceIdentity>
+    </sequence>
+    <table id="21" parent="2" name="CATEGORIAS">
+      <ObjectId>21569</ObjectId>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="22" parent="2" name="CLIENTES">
+      <ObjectId>21563</ObjectId>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="23" parent="2" name="COMPANIASDEENVIOS">
+      <ObjectId>21561</ObjectId>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="24" parent="2" name="DEPARTAMENTO">
+      <ObjectId>21427</ObjectId>
+      <Comment>DEPARTAMENTO table that shows details of DEPARTAMENTO where EMPLEADO work. Contains 27 rows; references with UBICACION, EMPLEADO, and TRABAJO_HISTORIAL tables.</Comment>
+      <CreatedTimestamp>2017-08-20.19:20:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:29</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="25" parent="2" name="DETALLESDEPEDIDOS">
+      <ObjectId>21560</ObjectId>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="26" parent="2" name="EMPLEADO">
+      <ObjectId>21432</ObjectId>
+      <Comment>EMPLEADO table. Contains 107 rows. References with DEPARTAMENTO, TRABAJO, TRABAJO_HISTORIAL tables. Contains a self reference.</Comment>
+      <CreatedTimestamp>2017-08-20.19:20:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="27" parent="2" name="EMPLEADOS">
+      <ObjectId>21565</ObjectId>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="28" parent="2" name="PAIS">
+      <ObjectId>21422</ObjectId>
+      <Comment>country table. Contains 25 rows. References with UBICACION table.</Comment>
+      <CreatedTimestamp>2017-08-20.19:20:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="29" parent="2" name="PEDIDOS">
+      <ObjectId>21567</ObjectId>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="30" parent="2" name="PRODUCTOS">
+      <ObjectId>21556</ObjectId>
+      <CreatedTimestamp>2017-08-30.01:14:09</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="31" parent="2" name="PROVEEDORES">
+      <ObjectId>21558</ObjectId>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="32" parent="2" name="REGION">
+      <ObjectId>21420</ObjectId>
+      <Comment>Tabla que contiene codigo y nombre de REGION, es referenciado por la tabla PAIS</Comment>
+      <CreatedTimestamp>2017-08-20.19:20:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="33" parent="2" name="TRABAJO">
+      <ObjectId>21430</ObjectId>
+      <Comment>TRABAJO table with job titles and SUELDO ranges. Contains 19 rows. References with EMPLEADO and TRABAJO_HISTORIAL table.</Comment>
+      <CreatedTimestamp>2017-08-20.19:20:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="34" parent="2" name="TRABAJO_HISTORIAL">
+      <ObjectId>21435</ObjectId>
+      <Comment>Table that stores job history of the EMPLEADO. If an employee changes DEPARTAMENTO within the job or changes TRABAJO within the department, new rows get inserted into this table with old job information of the employee. Contains a complex primary key: CO_EMPLEADO+FE_INICIO. Contains 25 rows. References with TRABAJO, EMPLEADO, and DEPARTAMENTO tables.</Comment>
+      <CreatedTimestamp>2017-08-20.19:20:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:29</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="35" parent="2" name="UBICACION">
+      <ObjectId>21424</ObjectId>
+      <Comment>tabla que contiene la dirección específica de una oficina, almacén y centro de producción concreto / o de una empresa . No almacena las direcciones de los clientes . referencias con las tablas Departamento y País.</Comment>
+      <CreatedTimestamp>2017-08-20.19:20:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <routine id="36" parent="2" name="ADD_TRABAJO_HISTORIAL">
+      <ObjectId>21450</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <CreatedTimestamp>2017-08-20.19:21:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:30</ModifiedTimestamp>
+    </routine>
+    <routine id="37" parent="2" name="SECURE_DML">
+      <ObjectId>21448</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <CreatedTimestamp>2017-08-20.19:21:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:30</ModifiedTimestamp>
+    </routine>
+    <column id="38" parent="21" name="IDCATEGORIA">
+      <Position>1</Position>
+      <DataType>NUMBER(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="21" name="NOMBRECATEGORIA">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="21" name="DESCRIPCION">
+      <Position>3</Position>
+      <DataType>VARCHAR2(500)|0</DataType>
+    </column>
+    <index id="41" parent="21" name="SYS_C007175">
+      <ObjectId>21570</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>IDCATEGORIA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="21" name="SYS_C007175">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDCATEGORIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007175</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="43" parent="22" name="IDCLIENTE">
+      <Position>1</Position>
+      <DataType>VARCHAR2(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="22" name="NOMBRECOMPANIA">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="22" name="NOMBRECONTACTO">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="46" parent="22" name="CARGOCONTACTO">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="47" parent="22" name="DIRECCION">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="48" parent="22" name="CIUDAD">
+      <Position>6</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="49" parent="22" name="REGION">
+      <Position>7</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="50" parent="22" name="CODPOSTAL">
+      <Position>8</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="51" parent="22" name="PAIS">
+      <Position>9</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="52" parent="22" name="TELEFONO">
+      <Position>10</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="53" parent="22" name="FAX">
+      <Position>11</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <index id="54" parent="22" name="SYS_C007169">
+      <ObjectId>21564</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>IDCLIENTE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="22" name="SYS_C007169">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDCLIENTE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007169</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="56" parent="23" name="IDCOMPANIAENVIOS">
+      <Position>1</Position>
+      <DataType>NUMBER(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="23" name="NOMBRECOMPANIA">
+      <Position>2</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="23" name="TELEFONO">
+      <Position>3</Position>
+      <DataType>VARCHAR2(24)|0</DataType>
+    </column>
+    <index id="59" parent="23" name="SYS_C007167">
+      <ObjectId>21562</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>IDCOMPANIAENVIOS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="23" name="SYS_C007167">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDCOMPANIAENVIOS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007167</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="24" name="CO_DEPARTAMENTO">
+      <Position>1</Position>
+      <Comment>Primary key column of DEPARTAMENTO table.</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="24" name="NO_DEPARTAMENTO">
+      <Position>2</Position>
+      <Comment>A not null column that shows name of a department. Administration, Marketing, Purchasing, Human Resources, Shipping, IT, Executive, Public Relations, Sales, Finance, and Accounting. </Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="63" parent="24" name="CO_ADMINISTRADOR">
+      <Position>3</Position>
+      <Comment>CO_ADMINISTRADOR of a department. Foreign key to CO_EMPLEADO column of EMPLEADO table. The CO_ADMINISTRADOR column of the employee table references this column.</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="64" parent="24" name="CO_UBICACION">
+      <Position>4</Position>
+      <Comment>Location id where a department is located. Foreign key to CO_UBICACION column of UBICACION table.</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="65" parent="24" name="DEPT_ID_PK">
+      <ObjectId>21428</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_DEPARTAMENTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="66" parent="24" name="DEPT_LOCATION_IX">
+      <ObjectId>21441</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:29</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_UBICACION</ColNames>
+    </index>
+    <key id="67" parent="24" name="DEPT_ID_PK">
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <ColNames>CO_DEPARTAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEPT_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="68" parent="24" name="DEPT_MGR_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:37</ModifiedTimestamp>
+      <ColNames>CO_ADMINISTRADOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>EMPLEADO</RefTableName>
+      <RefKeyName>EMP_EMP_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="69" parent="24" name="DEPT_LOC_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <ColNames>CO_UBICACION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>UBICACION</RefTableName>
+      <RefKeyName>LOC_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="70" parent="25" name="IDPEDIDO">
+      <Position>1</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="71" parent="25" name="IDPRODUCTO">
+      <Position>2</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="72" parent="25" name="PRECIOUNIDAD">
+      <Position>3</Position>
+      <DataType>NUMBER(6,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="25" name="CANTIDAD">
+      <Position>4</Position>
+      <DataType>NUMBER(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="25" name="DESCUENTO">
+      <Position>5</Position>
+      <DataType>NUMBER(4,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="75" parent="25" name="FK_1">
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDPEDIDO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>PEDIDOS</RefTableName>
+      <RefKeyName>SYS_C007173</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="76" parent="25" name="FK_2">
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDPRODUCTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>PRODUCTOS</RefTableName>
+      <RefKeyName>SYS_C007160</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="77" parent="26" name="CO_EMPLEADO">
+      <Position>1</Position>
+      <Comment>Primary key of EMPLEADO table.</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="26" name="NO_EMPLEADO">
+      <Position>2</Position>
+      <Comment>First name of the employee. A not null column.</Comment>
+      <DataType>VARCHAR2(35)|0</DataType>
+    </column>
+    <column id="79" parent="26" name="APELLIDOS">
+      <Position>3</Position>
+      <Comment>Last name of the employee. A not null column.</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="80" parent="26" name="CORREO">
+      <Position>4</Position>
+      <Comment>CORREO id of the employee</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="81" parent="26" name="TELEFONO">
+      <Position>5</Position>
+      <Comment>Phone number of the employee; includes country code and area code</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="82" parent="26" name="FE_CONTRATACION">
+      <Position>6</Position>
+      <Comment>Date when the employee started on this job. A not null column.</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="83" parent="26" name="CO_TRABAJO">
+      <Position>7</Position>
+      <Comment>Current job of the employee; foreign key to CO_TRABAJO column of the TRABAJO table. A not null column.</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="84" parent="26" name="SUELDO">
+      <Position>8</Position>
+      <Comment>Monthly SUELDO of the employee. Must be greater than zero (enforced by constraint emp_SUELDO_min)</Comment>
+      <DataType>NUMBER(8,2)|0</DataType>
+    </column>
+    <column id="85" parent="26" name="COMISION_PCT">
+      <Position>9</Position>
+      <Comment>Commission percentage of the employee; Only EMPLEADO in sales department elgible for commission percentage</Comment>
+      <DataType>NUMBER(2,2)|0</DataType>
+    </column>
+    <column id="86" parent="26" name="CO_ADMINISTRADOR">
+      <Position>10</Position>
+      <Comment>Manager id of the employee; has same domain as CO_ADMINISTRADOR in DEPARTAMENTO table. Foreign key to CO_EMPLEADO column of EMPLEADO table. (useful for reflexive joins and CONNECT BY query)</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="87" parent="26" name="CO_DEPARTAMENTO">
+      <Position>11</Position>
+      <Comment>Department id where employee works; foreign key to CO_DEPARTAMENTO column of the DEPARTAMENTO table</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="88" parent="26" name="EMP_EMP_ID_PK">
+      <ObjectId>21433</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_EMPLEADO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="89" parent="26" name="EMP_NAME_IX">
+      <ObjectId>21440</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:29</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>APELLIDOS
+NO_EMPLEADO</ColNames>
+    </index>
+    <index id="90" parent="26" name="EMP_JOB_IX">
+      <ObjectId>21438</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:28</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:28</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_TRABAJO</ColNames>
+    </index>
+    <index id="91" parent="26" name="EMP_MANAGER_IX">
+      <ObjectId>21439</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:28</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:28</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_ADMINISTRADOR</ColNames>
+    </index>
+    <index id="92" parent="26" name="EMP_DEPARTMENT_IX">
+      <ObjectId>21437</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:28</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:28</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_DEPARTAMENTO</ColNames>
+    </index>
+    <key id="93" parent="26" name="EMP_EMP_ID_PK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_EMPLEADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMP_EMP_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="94" parent="26" name="EMP_JOB_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_TRABAJO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TRABAJO</RefTableName>
+      <RefKeyName>CO_TRABAJO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="95" parent="26" name="EMP_MANAGER_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_ADMINISTRADOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>EMPLEADO</RefTableName>
+      <RefKeyName>EMP_EMP_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="96" parent="26" name="EMP_DEPT_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_DEPARTAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>DEPARTAMENTO</RefTableName>
+      <RefKeyName>DEPT_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="97" parent="26" name="EMP_SUELDO_MIN">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>SUELDO</ColNames>
+      <Predicate>SUELDO &gt; 0</Predicate>
+    </check>
+    <trigger id="98" parent="26" name="SECURE_EMPLEADO">
+      <ObjectId>21449</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:30</ModifiedTimestamp>
+      <Events>IUD</Events>
+      <Turn>before-stmt</Turn>
+    </trigger>
+    <trigger id="99" parent="26" name="UPDATE_TRABAJO_HISTORIAL">
+      <ObjectId>21451</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:31</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>after-row</Turn>
+      <ColNames>CO_TRABAJO
+CO_DEPARTAMENTO</ColNames>
+    </trigger>
+    <column id="100" parent="27" name="IDEMPLEADO">
+      <Position>1</Position>
+      <DataType>NUMBER(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="27" name="APELLIDOS">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="102" parent="27" name="NOMBRE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="103" parent="27" name="CARGO">
+      <Position>4</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+    </column>
+    <column id="104" parent="27" name="TRATAMIENTO">
+      <Position>5</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+    </column>
+    <column id="105" parent="27" name="FECHANACIMIENTO">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="106" parent="27" name="FECHACONTRATACION">
+      <Position>7</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="107" parent="27" name="DIRECCION">
+      <Position>8</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <column id="108" parent="27" name="CIUDAD">
+      <Position>9</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="109" parent="27" name="REGION">
+      <Position>10</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="110" parent="27" name="CODPOSTAL">
+      <Position>11</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="111" parent="27" name="PAIS">
+      <Position>12</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="112" parent="27" name="TELDOMICILIO">
+      <Position>13</Position>
+      <DataType>VARCHAR2(24)|0</DataType>
+    </column>
+    <column id="113" parent="27" name="EXTENSION">
+      <Position>14</Position>
+      <DataType>VARCHAR2(4)|0</DataType>
+    </column>
+    <column id="114" parent="27" name="NOTAS">
+      <Position>15</Position>
+      <DataType>VARCHAR2(500)|0</DataType>
+    </column>
+    <column id="115" parent="27" name="JEFE">
+      <Position>16</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="116" parent="27" name="SUELDOBASICO">
+      <Position>17</Position>
+      <DataType>NUMBER(6,2)|0</DataType>
+    </column>
+    <index id="117" parent="27" name="SYS_C007170">
+      <ObjectId>21566</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>IDEMPLEADO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="118" parent="27" name="SYS_C007170">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDEMPLEADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007170</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="119" parent="28" name="CO_PAIS">
+      <Position>1</Position>
+      <Comment>Primary key of PAIS table.</Comment>
+      <DataType>VARCHAR2(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="28" name="NO_PAIS">
+      <Position>2</Position>
+      <Comment>Country name</Comment>
+      <DataType>VARCHAR2(40)|0</DataType>
+    </column>
+    <column id="121" parent="28" name="CO_REGION">
+      <Position>3</Position>
+      <Comment>Region ID for the country. Foreign key to CO_REGION column in the DEPARTAMENTO table.</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="122" parent="28" name="COUNTRY_C_ID_PK">
+      <ObjectId>21423</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:34</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_PAIS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="123" parent="28" name="COUNTRY_C_ID_PK">
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <ColNames>CO_PAIS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>COUNTRY_C_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="124" parent="28" name="COUNTR_REG_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <ColNames>CO_REGION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>REGION</RefTableName>
+      <RefKeyName>REG_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="125" parent="28" name="CO_PAIS_NN">
+      <ModifiedTimestamp>2017-08-20.19:20:34</ModifiedTimestamp>
+      <ColNames>CO_PAIS</ColNames>
+      <Predicate>&quot;CO_PAIS&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="126" parent="29" name="IDPEDIDO">
+      <Position>1</Position>
+      <DataType>NUMBER(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="29" name="IDCLIENTE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="29" name="IDEMPLEADO">
+      <Position>3</Position>
+      <DataType>NUMBER(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="29" name="FECHAPEDIDO">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="130" parent="29" name="FECHAENTREGA">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="131" parent="29" name="FECHAENVIO">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="132" parent="29" name="FORMAENVIO">
+      <Position>7</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="133" parent="29" name="CARGO">
+      <Position>8</Position>
+      <DataType>NUMBER(6,2)|0</DataType>
+    </column>
+    <column id="134" parent="29" name="DESTINATARIO">
+      <Position>9</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <column id="135" parent="29" name="DIRECCIONDESTINATARIO">
+      <Position>10</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <column id="136" parent="29" name="CIUDADDESTINATARIO">
+      <Position>11</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <column id="137" parent="29" name="REGIONDESTINATARIO">
+      <Position>12</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <column id="138" parent="29" name="CODPOSTALDESTINATARIO">
+      <Position>13</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <column id="139" parent="29" name="PAISDESTINATARIO">
+      <Position>14</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <index id="140" parent="29" name="SYS_C007173">
+      <ObjectId>21568</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>IDPEDIDO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="141" parent="29" name="SYS_C007173">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDPEDIDO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007173</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="142" parent="29" name="FK_5">
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDCLIENTE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>CLIENTES</RefTableName>
+      <RefKeyName>SYS_C007169</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="143" parent="29" name="FK_6">
+      <ModifiedTimestamp>2017-08-30.01:14:11</ModifiedTimestamp>
+      <ColNames>IDEMPLEADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>EMPLEADOS</RefTableName>
+      <RefKeyName>SYS_C007170</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="144" parent="29" name="FK_4">
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>FORMAENVIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>COMPANIASDEENVIOS</RefTableName>
+      <RefKeyName>SYS_C007167</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="145" parent="30" name="IDPRODUCTO">
+      <Position>1</Position>
+      <DataType>NUMBER(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="30" name="NOMBREPRODUCTO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+    </column>
+    <column id="147" parent="30" name="IDPROVEEDOR">
+      <Position>3</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="148" parent="30" name="IDCATEGORIA">
+      <Position>4</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="149" parent="30" name="CANTIDADPORUNIDAD">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="150" parent="30" name="PRECIOUNIDAD">
+      <Position>6</Position>
+      <DataType>NUMBER(6,2)|0</DataType>
+    </column>
+    <column id="151" parent="30" name="UNIDADESENEXISTENCIA">
+      <Position>7</Position>
+      <DataType>NUMBER(3)|0</DataType>
+    </column>
+    <column id="152" parent="30" name="UNIDADESENPEDIDO">
+      <Position>8</Position>
+      <DataType>NUMBER(3)|0</DataType>
+    </column>
+    <column id="153" parent="30" name="NIVELNUEVOPEDIDO">
+      <Position>9</Position>
+      <DataType>NUMBER(3)|0</DataType>
+    </column>
+    <column id="154" parent="30" name="SUSPENDIDO">
+      <Position>10</Position>
+      <DataType>NUMBER(3)|0</DataType>
+    </column>
+    <column id="155" parent="30" name="CATEGORIAPRODUCTO">
+      <Position>11</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <index id="156" parent="30" name="SYS_C007160">
+      <ObjectId>21557</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-30.01:14:09</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:09</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>IDPRODUCTO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="157" parent="30" name="SYS_C007160">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-30.01:14:09</ModifiedTimestamp>
+      <ColNames>IDPRODUCTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007160</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="158" parent="30" name="FK_3">
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDPROVEEDOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>PROVEEDORES</RefTableName>
+      <RefKeyName>SYS_C007162</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="159" parent="30" name="FK_7">
+      <ModifiedTimestamp>2017-08-30.01:14:11</ModifiedTimestamp>
+      <ColNames>IDCATEGORIA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>CATEGORIAS</RefTableName>
+      <RefKeyName>SYS_C007175</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="160" parent="31" name="IDPROVEEDOR">
+      <Position>1</Position>
+      <DataType>NUMBER(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="161" parent="31" name="NOMBRECOMPANIA">
+      <Position>2</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="162" parent="31" name="NOMBRECONTACTO">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="163" parent="31" name="CARGOCONTACTO">
+      <Position>4</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="164" parent="31" name="DIRECCION">
+      <Position>5</Position>
+      <DataType>VARCHAR2(60)|0</DataType>
+    </column>
+    <column id="165" parent="31" name="CIUDAD">
+      <Position>6</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="166" parent="31" name="REGION">
+      <Position>7</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="167" parent="31" name="CODPOSTAL">
+      <Position>8</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="168" parent="31" name="PAIS">
+      <Position>9</Position>
+      <DataType>VARCHAR2(15)|0</DataType>
+    </column>
+    <column id="169" parent="31" name="TELEFONO">
+      <Position>10</Position>
+      <DataType>VARCHAR2(24)|0</DataType>
+    </column>
+    <column id="170" parent="31" name="FAX">
+      <Position>11</Position>
+      <DataType>VARCHAR2(24)|0</DataType>
+    </column>
+    <column id="171" parent="31" name="PAGINAPRINCIPAL">
+      <Position>12</Position>
+      <DataType>VARCHAR2(500)|0</DataType>
+    </column>
+    <index id="172" parent="31" name="SYS_C007162">
+      <ObjectId>21559</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-30.01:14:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>IDPROVEEDOR</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="173" parent="31" name="SYS_C007162">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-30.01:14:10</ModifiedTimestamp>
+      <ColNames>IDPROVEEDOR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007162</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="174" parent="32" name="CO_REGION">
+      <Position>1</Position>
+      <Comment>Primary key  de la tabla REGION</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="175" parent="32" name="NO_REGION">
+      <Position>2</Position>
+      <Comment>Nombre de la region en la que se encuentra un pais</Comment>
+      <DataType>VARCHAR2(25)|0</DataType>
+    </column>
+    <index id="176" parent="32" name="REG_ID_PK">
+      <ObjectId>21421</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:34</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_REGION</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="177" parent="32" name="REG_ID_PK">
+      <ModifiedTimestamp>2017-08-20.19:20:34</ModifiedTimestamp>
+      <ColNames>CO_REGION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>REG_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="178" parent="32" name="CO_REGION_NN">
+      <ModifiedTimestamp>2017-08-20.19:20:34</ModifiedTimestamp>
+      <ColNames>CO_REGION</ColNames>
+      <Predicate>&quot;CO_REGION&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="179" parent="33" name="CO_TRABAJO">
+      <Position>1</Position>
+      <Comment>Primary key of TRABAJO table.</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="180" parent="33" name="NO_TRABAJO">
+      <Position>2</Position>
+      <Comment>A not null column that shows job title, e.g. AD_VP, FI_ACCOUNTANT</Comment>
+      <DataType>VARCHAR2(35)|0</DataType>
+    </column>
+    <column id="181" parent="33" name="SUELDO_MIN">
+      <Position>3</Position>
+      <Comment>Minimum SUELDO for a job title.</Comment>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="182" parent="33" name="SUELDO_MAX">
+      <Position>4</Position>
+      <Comment>Maximum SUELDO for a job title</Comment>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <index id="183" parent="33" name="CO_TRABAJO_PK">
+      <ObjectId>21431</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_TRABAJO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="184" parent="33" name="CO_TRABAJO_PK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_TRABAJO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CO_TRABAJO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="185" parent="34" name="CO_EMPLEADO">
+      <Position>1</Position>
+      <Comment>A not null column in the complex primary key CO_EMPLEADO+FE_INICIO. Foreign key to CO_EMPLEADO column of the employee table</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="186" parent="34" name="FE_INICIO">
+      <Position>2</Position>
+      <Comment>A not null column in the complex primary key CO_EMPLEADO+FE_INICIO. Must be less than the FE_FIN of the TRABAJO_HISTORIAL table. (enforced by constraint jhist_date_interval)</Comment>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="187" parent="34" name="FE_FIN">
+      <Position>3</Position>
+      <Comment>Last day of the employee in this job role. A not null column. Must be greater than the FE_INICIO of the TRABAJO_HISTORIAL table. (enforced by constraint jhist_date_interval)</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="188" parent="34" name="CO_TRABAJO">
+      <Position>4</Position>
+      <Comment>Job role in which the employee worked in the past; foreign key to CO_TRABAJO column in the TRABAJO table. A not null column.</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="189" parent="34" name="CO_DEPARTAMENTO">
+      <Position>5</Position>
+      <Comment>Department id in which the employee worked in the past; foreign key to deparment_id column in the DEPARTAMENTO table</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="190" parent="34" name="JHIST_EMP_ID_ST_DATE_PK">
+      <ObjectId>21436</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_EMPLEADO
+FE_INICIO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="191" parent="34" name="JHIST_EMPLOYEE_IX">
+      <ObjectId>21443</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:29</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_EMPLEADO</ColNames>
+    </index>
+    <index id="192" parent="34" name="JHIST_JOB_IX">
+      <ObjectId>21442</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:29</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_TRABAJO</ColNames>
+    </index>
+    <index id="193" parent="34" name="JHIST_DEPARTMENT_IX">
+      <ObjectId>21444</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:29</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_DEPARTAMENTO</ColNames>
+    </index>
+    <key id="194" parent="34" name="JHIST_EMP_ID_ST_DATE_PK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_EMPLEADO
+FE_INICIO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JHIST_EMP_ID_ST_DATE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="195" parent="34" name="JHIST_EMP_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_EMPLEADO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>EMPLEADO</RefTableName>
+      <RefKeyName>EMP_EMP_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="196" parent="34" name="JHIST_JOB_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_TRABAJO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>TRABAJO</RefTableName>
+      <RefKeyName>CO_TRABAJO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="197" parent="34" name="JHIST_DEPT_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_DEPARTAMENTO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>DEPARTAMENTO</RefTableName>
+      <RefKeyName>DEPT_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="198" parent="34" name="JHIST_EMPLOYEE_NN">
+      <ModifiedTimestamp>2017-08-20.19:20:36</ModifiedTimestamp>
+      <ColNames>CO_EMPLEADO</ColNames>
+      <Predicate>&quot;CO_EMPLEADO&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="199" parent="35" name="CO_UBICACION">
+      <Position>1</Position>
+      <Comment>Primary key de la tabla UBICACION</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="200" parent="35" name="DE_DIRECCION">
+      <Position>2</Position>
+      <Comment>dirección de la calle de una oficina , almacén o centro de producción de una empresa . Contiene el número del edificio y nombre de la calle</Comment>
+      <DataType>VARCHAR2(40)|0</DataType>
+    </column>
+    <column id="201" parent="35" name="CO_POSTAL">
+      <Position>3</Position>
+      <Comment>Código postal de la ubicación de una oficina, almacén o centro de producción de una empresa .</Comment>
+      <DataType>VARCHAR2(12)|0</DataType>
+    </column>
+    <column id="202" parent="35" name="DE_CIUDAD">
+      <Position>4</Position>
+      <Comment>Una columna no nula que muestra DE_CIUDAD donde se encuentra una oficina, almacén o centro de producción de una empresa.</Comment>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="203" parent="35" name="DE_ESTADO">
+      <Position>5</Position>
+      <Comment>Estado o provincia donde se encuentra una oficina, almacén o centro de producción de una empresa.</Comment>
+      <DataType>VARCHAR2(25)|0</DataType>
+    </column>
+    <column id="204" parent="35" name="CO_PAIS">
+      <Position>6</Position>
+      <Comment>País en el que se encuentra una oficina, almacén o centro de producción de una empresa. clave foranea a la columna CO_PAIS de la tabla PAIS.</Comment>
+      <DataType>VARCHAR2(2)|0</DataType>
+    </column>
+    <index id="205" parent="35" name="LOC_ID_PK">
+      <ObjectId>21425</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:20:35</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_UBICACION</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="206" parent="35" name="LOC_DE_CIUDAD_IX">
+      <ObjectId>21445</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:29</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>DE_CIUDAD</ColNames>
+    </index>
+    <index id="207" parent="35" name="LOC_DE_ESTADO_IX">
+      <ObjectId>21446</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:30</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>DE_ESTADO</ColNames>
+    </index>
+    <index id="208" parent="35" name="LOC_COUNTRY_IX">
+      <ObjectId>21447</ObjectId>
+      <CreatedTimestamp>2017-08-20.19:21:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-20.19:21:30</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>CO_PAIS</ColNames>
+    </index>
+    <key id="209" parent="35" name="LOC_ID_PK">
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <ColNames>CO_UBICACION</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>LOC_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="210" parent="35" name="LOC_C_ID_FK">
+      <ModifiedTimestamp>2017-08-20.19:20:35</ModifiedTimestamp>
+      <ColNames>CO_PAIS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>PAIS</RefTableName>
+      <RefKeyName>COUNTRY_C_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <argument id="211" parent="36" name="P_EMP_ID">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+    <argument id="212" parent="36" name="P_FE_INICIO">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="213" parent="36" name="P_FE_FIN">
+      <DataType>DATE|0</DataType>
+    </argument>
+    <argument id="214" parent="36" name="P_CO_TRABAJO">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="215" parent="36" name="P_CO_DEPARTAMENTO">
+      <DataType>NUMBER|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>
